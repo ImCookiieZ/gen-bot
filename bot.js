@@ -20,7 +20,7 @@ let keys = {
 
 const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]  });
 
-const TOKEN = 'MTEzMDg4MTc2ODQxNzkxOTA1Ng.G-cfaz.0Vzqr-gGdKdwWatVDWb1nQ5TkNkFld7M_Go--M';
+const TOKEN = process.env.token;
 const viewer_role = '1132451439516602408' 
 const gen_role = '1132451143671357541'
 const store_role = '1132451032589410374'
